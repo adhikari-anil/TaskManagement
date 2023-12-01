@@ -2,8 +2,8 @@ import React from "react";
 
 function Pending() {
   return (
-    <div className="box-border w-[30%] p-4">
-    <div className="bg-red-400 p-2"> Pending </div>
+    <div className="box-border w-[30%] border-4 p-4 rounded-lg">
+    <div className="bg-[#F6F8FB] box-border w-full border-4 p-4 rounded-lg font-black text-lg text-[#304D85]"> Pending </div>
     <div className="flex flex-col items-center p-3">
       <div className="bg-blue-400 box-border w-[80%] p-3 border-4">
         <h2 className="text-xl font-serif font-bold">Set me free</h2>

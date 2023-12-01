@@ -12,12 +12,12 @@ function Navbar() {
 
   return (
     <>
-      <div className=" flex items-center justify-between h-20 w-full bg-red-400 pr-[5%]">
-        <h1 className="ml-[50%]">Task Manager</h1>
+      <div className=" flex items-center justify-between h-20 w-full pr-[5%] bg-blue-400 box-border p-3 border-4 rounded-lg">
+        <h1 className="ml-[50%] text-2xl font-serif font-bold">Task Manager</h1>
         <button 
           onClick={() => addAction()}
           type="button"
-          className="rounded-full bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+          className="rounded-full bg-white px-3 py-2 text-sm font-bold text-black shadow-slate-100 hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
         >
           AddTask
         </button>
